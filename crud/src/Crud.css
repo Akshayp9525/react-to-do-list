@@ -1,0 +1,101 @@
+
+
+
+
+table{
+    width: 50%;
+    margin: 100px auto;
+    background: rgb(124,154,167);
+    border-collapse: collapse;
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+}
+
+td{
+    border: 1px solid rgb(204,200,200);
+    text-align: left;
+    padding: 8px 15px;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: rgb(204,200,200);
+}
+
+input[type="text"],input[type="number"]{
+    width:91%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: #4b99d8;
+}
+
+input[type="reset"]:hover{
+    background: #4b99d8;
+}
+
+button{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background:#4b99d8 ;
+}
+
+#btn{
+    width: 200px;
+    
+}
+.Delete{
+    margin-left: 10px;
+}
+.text
+{
+    width: 700px;
+    display: flex;
+    height: 30px;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 100px auto;
+}
+#name{
+    width: 300px;
+    height: fit-content;
+}
+#price{
+    width: 300px;
+    height: fit-content;
+}
+#Add{
+    width: fit-content;
+    height: fit-content;
+    background-color: red;
+    color: white;
+}
